@@ -5,5 +5,5 @@ def reverse_each_word(str)
   rev = ""
   pp str_arr
   
-  #str_arr.each { |char| } 
+  str_arr.each { |word| rev += word.reverse } 
 end
