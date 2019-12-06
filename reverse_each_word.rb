@@ -6,4 +6,6 @@ def reverse_each_word(str)
   pp str_arr
   
   str_arr.each { |word| rev += word.reverse } 
+  
+  rev
 end
