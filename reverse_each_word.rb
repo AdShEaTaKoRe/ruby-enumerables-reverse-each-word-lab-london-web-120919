@@ -1,5 +1,9 @@
+require 'pp'
+
 def reverse_each_word(str)
-  str_arr = str.chars
+  str_arr = str.split(" ")
   rev = ""
-  str_arr.each { |char| } 
+  pp str_arr
+  
+  #str_arr.each { |char| } 
 end
