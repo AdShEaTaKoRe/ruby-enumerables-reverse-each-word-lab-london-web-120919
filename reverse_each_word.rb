@@ -5,7 +5,12 @@ def reverse_each_word(str)
   rev = ""
   pp str_arr
   
-  str_arr.each { |word| rev += word.reverse + " "} 
+  str_arr.each { |word, wordIndex| 
+    rev += word.reverse
+    if wordIndex < str_arr.length-1
+      rev += " "
+    end
+  } 
   
   rev
 end
